@@ -2,7 +2,7 @@
 # Mon Jun 13 09:19:38 UTC 2022
 
 
-FROM adoptopenjdk/openjdk8-openj9 AS build-stage
+FROM docker.io/adoptopenjdk/openjdk8-openj9 AS build-stage
 
 RUN apt-get update && \
     apt-get install -y maven unzip
